@@ -1,0 +1,34 @@
+.single-image {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.single-image img {
+  position: absolute;
+}
+
+.single-image .overlay {
+  display: none;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 10px;
+  left: 10px;
+  background-color: #000;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.single-image:hover .overlay {
+  display: table;
+}
+
+.single-image .overlay a {
+  display: table-cell;
+  vertical-align: middle;
+}
