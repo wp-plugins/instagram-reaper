@@ -150,7 +150,7 @@ foreach ($images as $image) { ?>
 * query the instagram API directly. This will not save in the database
 * currently can query by Hashtag or Username
 
-$args:
+`$args:`
 * query (required) - 'hashtag' or 'username'
 * user_id - the Instagram User id for the query.  If you do not know the User ID, use
 * username - this will get the user ID by the username before querying
