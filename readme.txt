@@ -67,11 +67,11 @@ foreach ($images as $image) { ?>
 * currently can query by Hashtag or Username
 
 Parameters:
-* query (required): 'hashtag' or 'username'
-* user_id: the Instagram User id for the query.  If you do not know the User ID, use
-* username: this will get the user ID by the username before querying
-* hashtag: the hashtag for the query
-* count: the number of images to return
+* query (required) ['hashtag' or 'username']
+* user_id [the Instagram User id for the query.  If you do not know the User ID, use]
+* username [this will get the user ID by the username before querying]
+* hashtag [the hashtag for the query]
+* count [the number of images to return]
 
 example:
 
